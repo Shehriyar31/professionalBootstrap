@@ -18,7 +18,20 @@
     --bs-supporting-color: #C850C0;
 }
 
-/* Color palette button styles */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bs-main-color);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .color-palette {
     padding: 0.5rem 0;
     padding: 0.5rem 1rem;
